@@ -55,7 +55,7 @@ class Song(models.Model):
     def __str__(self):
     	return self.song_name
 
-'''
+
 class CustomUser(AbstractUser):
 
 	name = models.CharField(max_length=20, default='UserName')
@@ -92,6 +92,3 @@ class playlist_song(models.Model):
 
     def __str__(self):
       return f'Title = {self.song_title}, Date = {self.song_date_added}'
-
-'''
-
